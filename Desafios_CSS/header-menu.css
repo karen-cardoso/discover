@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+header{
+    padding: 3rem;
+    background: lightgray;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.logo{
+    height: 50px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+ul li:last-child{
+    background-color:rgb(86, 23, 202);
+    color: white;
+    padding: 0.8rem;
+}

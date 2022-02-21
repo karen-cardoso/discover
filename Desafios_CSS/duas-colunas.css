@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    gap: 1rem;
+}
+
+.col1, .col2{
+    height:95vh;
+    border: 1px solid red;
+}
+
+/* Correção
+
+.container{
+    display: flex;
+    gap: 1rem;
+}
+
+aside, main {
+    border: 1px solid;
+    height: 95vh;
+}
+
+aside{
+    flex-basis: 25%;
+}
+
+main{
+    flex: 1;
+}
+
+
+
+*/
