@@ -1,0 +1,63 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar img{
+    width: 12.5rem;
+    border-radius: 50%;
+
+    border: 2px solid var(--purple);
+    padding: 4px;
+    
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0 33px 
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links ul{
+    list-style: none;
+    margin: 0;
+}
+
+.social-icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a{
+    text-decoration: none;
+
+}
